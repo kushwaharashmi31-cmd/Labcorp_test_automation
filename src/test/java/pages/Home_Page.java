@@ -124,7 +124,7 @@ public class Home_Page {
             }
         }
 
-        // Step 3: Scroll into view and click
+        // Step 3: Scroll into view and click//
         js.executeScript("arguments[0].scrollIntoView({behavior:'smooth', block:'center'});", applyBtn);
         try { Thread.sleep(1000); } catch (Exception e) {}
         js.executeScript("arguments[0].click();", applyBtn);
