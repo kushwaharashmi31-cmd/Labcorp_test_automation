@@ -7,3 +7,5 @@ Feature: API Testing
   Scenario: Validate POST API
     Given I send POST request
     Then I validate POST response
+
+    
